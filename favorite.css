@@ -10,6 +10,23 @@ body {
     font-size: 70px;
   }
   
+  nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+  }
+  
+    nav ul li{
+      margin-right: 2rem;
+    }
+  
+    nav ul li a {
+      color: #8f2e14;
+      font-size: 20px;
+      text-decoration: none;
+    }
+ 
   .fade,
   .fade2 {
     width: 160px;
